@@ -11,7 +11,7 @@ number of steps, picking up as many coins as possible.
 ## Find the Ring Phase 
 On the way to the ring, the layout of the sewer system is unknown. The diver knows only the status of the place on which he is standing and the immediately neighboring ones. The goal is to make it to the ring in as few steps as possible. This does not have to be a completely blind search. The diver can see the ring shining in the distance. The closer the diver gets, the stronger the light from the ring. When standing on the ring, the distance is 0. Wherever the diver is, he will be able to see which neighbor is closer or farther from the ring.
 
-Given these specifications from the given classes, I wrote the solution to this phase in method findRing(...) in class DiverMax within package student.
+Given these specifications from the given classes, I wrote the solution to this phase in method findRing(...) in class DiverMax within package student. My solution was a modified implementation of a depth-first-search walk.
 
 ![](https://media.giphy.com/media/7SOdTSgBjWqWnFp3G1/giphy.gif)
 
@@ -20,6 +20,6 @@ After picking up the ring, the diver sees piles of coins all over the place. Luc
 1. The value of the coins that the diver picks up during the get-out phase.
 2. The score multiplier from the find-the-ring phase.
 
-I wrote my solution to this part in function getOut() in class DiverMax in package student.
+I wrote my solution to this part in function getOut() in class DiverMax in package student. My solution was similar to an implementation of Dijkstra's shortest path algorithm where a Heap was used to create a priority queue for which spots should be visited next. The order of the queue updates based on which spaces have the highest coin value, which space will have the highest number of coins picked up on the way, and which spaces can be travelled to in the allotted number of steps.
 
 ![](https://media.giphy.com/media/NUsKcyzcAN54EGMlLB/giphy.gif)
