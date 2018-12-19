@@ -12,6 +12,7 @@ number of steps, picking up as many coins as possible.
 On the way to the ring, the layout of the sewer system is unknown. The diver knows only the status of the place on which he is standing and the immediately neighboring ones. The goal is to make it to the ring in as few steps as possible. This does not have to be a completely blind search. The diver can see the ring shining in the distance. The closer the diver gets, the stronger the light from the ring. When standing on the ring, the distance is 0. Wherever the diver is, he will be able to see which neighbor is closer or farther from the ring.
 
 Given these specifications from the given classes, I wrote the solution to this phase in method findRing(...) in class DiverMax within package student.
+
 ![](NYSewerSystemPic1.png)
 
 ## Get Out Phase
@@ -20,4 +21,5 @@ After picking up the ring, the diver sees piles of coins all over the place. Luc
 2. The score multiplier from the find-the-ring phase.
 
 I wrote my solution to this part in function getOut() in class DiverMax in package student.
+
 ![](NYSewerSystemPic2.png)
