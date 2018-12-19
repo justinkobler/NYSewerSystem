@@ -22,4 +22,4 @@ After picking up the ring, the diver sees piles of coins all over the place. Luc
 
 I wrote my solution to this part in function getOut() in class DiverMax in package student.
 
-![](NYSewerSystemPic2.png)
+![](https://media.giphy.com/media/NUsKcyzcAN54EGMlLB/giphy.gif)
