@@ -4,7 +4,8 @@ A diver is going into a sewer system to find a lost ring. We want the diver to f
 many coins as possible.
 
 All classes in packages src --> game/gui were given and provide the framework for this project (sewer system layout, coins, diver specification, etc..) 
-I created classes in package src --> student to find the ring and to get out within a certain
+
+Classes in package src --> student were created by me to find the ring and to get out within a certain
 number of steps, picking up as many coins as possible.
 
 ## Find the Ring Phase 
