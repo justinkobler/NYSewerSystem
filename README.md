@@ -13,7 +13,7 @@ On the way to the ring, the layout of the sewer system is unknown. The diver kno
 
 Given these specifications from the given classes, I wrote the solution to this phase in method findRing(...) in class DiverMax within package student.
 
-![](NYSewerSystemPic1.png)
+![](https://media.giphy.com/media/7SOdTSgBjWqWnFp3G1/giphy.gif)
 
 ## Get Out Phase
 After picking up the ring, the diver sees piles of coins all over the place. Luckily, underneath the ring is a map that reveals the full sewer system. The diver rushes around, picking up as many coins as possible. But because the sewer system is a rather unhealthy environment, he must get to the exit within a prescribed number of steps. The goal of the get-out phase is to get to the exit within a prescribed number of steps while collecting as many coins as possible. The total score is the product of these two quantities:
